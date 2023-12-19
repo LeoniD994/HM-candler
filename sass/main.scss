@@ -1,0 +1,33 @@
+@import './utils/reset.scss';
+@import './components/header.scss';
+@import './components/footer.scss';
+@import './components/hero';
+
+
+
+.container{
+    max-width: 1180px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+    
+    @media (max-width:1000px) {
+        padding-left: 20px;
+        padding-right: 20px;
+        }
+} 
+.body{
+    position: relative;
+    font-family: 'Yeseva One', serif;
+    // font-family: 'Comfortaa', sans-serif;
+    // font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: 14px;
+    @media (max-width:768px) {
+        font-size: 10px;
+    }
+}
+
