@@ -15,9 +15,12 @@
         padding-left: 20px;
         padding-right: 20px;
         }
+        @media (max-width:640px) {
+            padding-left: 10px;
+            padding-right: 10px;
+                }
 } 
-.body{
-    position: relative;
+body{
     font-family: 'Yeseva One', serif;
     // font-family: 'Comfortaa', sans-serif;
     // font-family: 'Roboto', sans-serif;
@@ -29,5 +32,9 @@
     @media (max-width:768px) {
         font-size: 10px;
     }
+}
+.main{
+    background-color: #FFF8F3;
+    overflow-x: clip;
 }
 
