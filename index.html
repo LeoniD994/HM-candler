@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
+  <!-- HEADER -->
   <header class="header">
     <div class="container header__inner">
       <a href="#" class="header__img">
@@ -58,6 +59,7 @@
     </div>
   </header>
   <main class="main">
+    <!-- HERO -->
     <section class="hero">
       <div class="container hero__inner">
         <div class="hero__content">
@@ -66,11 +68,38 @@
           <button class="hero__btn">Купити</button>
         </div>
         <picture class="hero__img">
+          <source  srcset="images/hero_s.png" media="(max-width:360px)">
+          <source  srcset="images/hero_m.png" media="(max-width:480px)">
           <img class="hero__img-g" src="./images/hero_group.png" alt="свічки">
         </picture>
       </div>
     </section>
+    <!-- ABOUT -->
+    <section class="about">
+      <div class="container about__inner">
+        <div class="about__content">
+        <h4 class="about__title">Про нас</h4>
+        <p class="about__text">Богдан творець бренду який завжди зацікавлений у виготовленні різноманітних речей вдома. Він регулярно експериментував з різними матеріалами та інструментами, спробувавши свої сили у багатьох галузях, включаючи виготовлення свічок.</p>
+        <p class="about__info">Ссоєвий віск виготовляють із соєвих бобів, що зрощуються в Данії, і цей вид воску є екологічно чистим та безпечним для здоров'я.</p>
+        </div>
+        <ul class="about__list">
+          <li class="about__item">
+            <img src="./images/about1.jpg" alt="" class="about__img">
+            <p class="about__item-text">Насолоджуйтеся моментом</p>
+          </li>
+          <li class="about__item">
+            <img src="./images/about2.png" alt="" class="about__img">
+            <p class="about__item-text">Створіть улюблену атмосферу</p>
+          </li>
+          <li class="about__item">
+            <img src="./images/about3.jpg" alt="" class="about__img">
+            <p class="about__item-text">Виготовлені з любов'ю</p>
+          </li>
+        </ul>
+      </div>
+    </section>
   </main>
+  <!-- FOOTER -->
   <footer class="footer">
       <div class="container footer__inner">
       <a href="#" class="footer__img">

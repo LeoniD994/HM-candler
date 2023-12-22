@@ -2,6 +2,7 @@
 @import './components/header.scss';
 @import './components/footer.scss';
 @import './components/hero';
+@import './components/about';
 
 
 
@@ -18,7 +19,7 @@
         @media (max-width:640px) {
             padding-left: 10px;
             padding-right: 10px;
-                }
+            }
 } 
 body{
     font-family: 'Yeseva One', serif;
@@ -35,6 +36,6 @@ body{
 }
 .main{
     background-color: #FFF8F3;
-    overflow-x: clip;
+    overflow-x:clip;
 }
 
