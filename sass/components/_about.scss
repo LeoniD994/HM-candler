@@ -67,7 +67,6 @@
     align-items: center;
     padding-left: 110px;
     padding-bottom: 48px;
-    position: relative;
     flex-basis: 930px;
     @media (max-width:1000px) {
         padding-left: 20px;
@@ -91,16 +90,19 @@
         padding-bottom: 30px;
     }
 }
-.about__list::before{
+.section--decor{
+    position: relative;
+}
+.section--decor::before{
     position: absolute;
     content:'';
     left: 0;
     bottom: 0;
-    background-image: url(../images/about-decor.png);
+    background-image: url(../images/section-decor.png);
     width: 22px;
     height: 30px;
 }
-.about__list::after {
+.section--decor::after {
     position: absolute;
     content: '';
     left: 22px;
