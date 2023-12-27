@@ -1041,6 +1041,38 @@ a {
   }
 }
 
+.steps__title {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.steps__text {
+  font-family: "Comfortaa", sans-serif;
+  font-size: 14px;
+}
+
+.steps__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 70px 26px;
+}
+
+.steps__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 370px;
+  gap: 39px;
+}
+
+.steps__item-text {
+  font-family: "Comfortaa", sans-serif;
+  font-size: 14px;
+}
+
 .container {
   max-width: 1180px;
   padding-left: 10px;
