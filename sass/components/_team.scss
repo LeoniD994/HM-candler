@@ -3,6 +3,12 @@
     padding: 80px 0 60px;
     color: #fff;
     margin-bottom: 150px;
+    @media (max-width:1000px) {
+        padding: 50px 0;
+    }
+    @media (max-width:480px) {
+        margin-bottom: 50px;
+    }
 }
 
 .team__content {
@@ -11,10 +17,25 @@
     @media (max-width:1000px) {
         gap:30px 20px;
     }
+    @media (max-width:768px) {
+        gap: 30px 14px;
+    }
+    @media (max-width:390px) {
+        grid-template-columns: auto;
+
+    }
 }
 
 .team__item {
     position: relative;
+}
+.team__item img{
+    @media (max-width:768px) {
+        width: 142px;        
+    }
+    @media (max-width:390px) {
+        width: 204px;
+    }
 }
 
 .team__info {
@@ -26,17 +47,44 @@
     padding: 15px 10px 16px;
     width: 165px;
     z-index: 4;
-    @media (max-width:1000px) {
-        right: -10px;
+    @media (max-width:768px) {
+        padding: 9px 6px 10px;
+        width: 109px;
+        bottom: 8px;
+        right: 36px;
+    }
+    @media (max-width:640px) {
+        padding: 9px 6px 10px;
+        width: 109px;
+        left: 80px;
+        right: auto;
+    }
+    @media (max-width:390px) {
+        width: 150px;
+        left: 144px;
+        bottom: 15px;
+
     }
 }
 
 .team__name {
     font-size: 12px;
     margin-bottom: 3px;
+    @media (max-width:768px) {
+        font-size: 8px;        
+    }
+    @media (max-width:390px) {
+        font-size: 12px;
+    }
 }
 
 .team__text {
     font-family: 'comfortaa', sans-serif;
     font-size: 10px;
+    @media (max-width:768px) {
+        font-size: 7px;        
+    }
+    @media (max-width:390px) {
+        font-size: 10px;
+    }
 }
